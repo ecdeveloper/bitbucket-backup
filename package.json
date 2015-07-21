@@ -1,0 +1,24 @@
+{
+  "name": "bitbucket-backup",
+  "version": "0.0.0",
+  "description": "Clone all repositories from bitbucket to your local machine",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitbucket",
+    "backup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecdeveloper/bitbucket-backup.git"
+  },
+  "author": "Eugene Chiriliuc <ec.developer@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "named-argv": "^0.3.0",
+    "request": "^2.59.0"
+  }
+}
