@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-backup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Clone all repositories from bitbucket to your local machine",
   "main": "app.js",
   "scripts": {
