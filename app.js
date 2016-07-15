@@ -41,7 +41,7 @@ getAllRepos(url, auth, function (error, repos) {
 
 		// Choose between git and mercurial
 		var command = repo.scm == 'git' ? 'git' : 'hg';
-		exec(command + ' clone ' + repo.links.clone[0].href + ' ' + backupFolder + repo.name, callback);
+		exec(command + ' clone ' + repo.links.clone[0].href + ' ' + backupFolder + repo.name.replace(/\ /g, '\\ '), callback);
 	});
 });
 
