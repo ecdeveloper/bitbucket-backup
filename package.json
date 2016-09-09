@@ -1,5 +1,5 @@
 {
-  "name": "bitbucket-backup",
+  "name": "@naterkane/getallrepos",
   "version": "0.0.1",
   "description": "Clone all repositories from bitbucket to your local machine",
   "main": "app.js",
@@ -8,11 +8,13 @@
   },
   "keywords": [
     "bitbucket",
-    "backup"
+    "backup",
+    "getallrepos",
+    "git"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ecdeveloper/bitbucket-backup.git"
+    "url": "https://github.com/naterkane/getallrepos.git"
   },
   "author": "Eugene Chiriliuc <ec.developer@gmail.com>",
   "license": "ISC",

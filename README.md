@@ -9,7 +9,7 @@ Install
 This app requires a single dependency - Node.js. You can install it by simply running
 
 ```
-npm install bitbucket-backup
+npm install @naterkane/getallrepos
 ```
 
 Usage
